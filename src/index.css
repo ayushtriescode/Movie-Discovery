@@ -1,1 +1,27 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-brand-red: #e50914;
+    
+    ::selection {
+      background-color: var(--color-brand-red);
+      color: white;
+    }
+  }
+
+  body {
+    @apply bg-zinc-950 text-white antialiased overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+}
