@@ -7,7 +7,7 @@ import SearchPage from './pages/SearchPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/Movie-Discovery'>
       <div className="bg-zinc-950 min-h-screen text-white font-sans selection:bg-red-600">
         <Navbar />
 
