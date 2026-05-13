@@ -37,7 +37,7 @@ export default function SearchPage() {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
           {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((i) => (
             <div key={i} className="space-y-2">
-              <div className="aspect-[2/3] bg-zinc-800 animate-pulse rounded-lg" />
+              <div className="aspect-2/3 bg-zinc-800 animate-pulse rounded-lg" />
               <div className="h-4 bg-zinc-800 animate-pulse rounded w-3/4" />
             </div>
           ))}

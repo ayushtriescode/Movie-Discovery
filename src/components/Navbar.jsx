@@ -36,7 +36,7 @@ export default function Navbar() {
         </Link>
       )}
 
-      <div className="flex items-center gap-4 flex-grow justify-end">
+      <div className="flex items-center gap-4 grow justify-end">
         <div className="hidden md:flex gap-6 text-sm font-semibold mr-8">
           <Link to="/" className="hover:text-zinc-400">Home</Link>
           <span className="cursor-pointer hover:text-zinc-400">TV Shows</span>

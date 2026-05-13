@@ -14,7 +14,7 @@ export default function Skeleton({ type }) {
         
         <div className="flex space-x-4 overflow-hidden">
           {[1, 2, 3, 4, 5, 6].map((i) => (
-            <div key={i} className={`min-w-[128px] md:min-w-[192px] lg:min-w-[224px] h-48 md:h-72 ${CLASSES}`} />
+            <div key={i} className={`min-w-32 md:min-w-48 lg:min-w-56 h-48 md:h-72 ${CLASSES}`} />
           ))}
         </div>
       </div>
