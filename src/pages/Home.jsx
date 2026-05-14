@@ -25,7 +25,7 @@ export default function Home() {
 
       <div className={loading ? "hidden" : "block"}>
         <Hero onLoaded={handleDataLoaded} />
-        <div className="relative z-10 -mt-24 bg-zinc-950/10 pt-4 space-y-2">
+        <div className="relative z-10 -mt-16 bg-zinc-950/10 pt-4 space-y-2">
           <MovieRow title="Trending This Week" fetchUrl={requests.trending} />
           <MovieRow title="Critics' Favorites" fetchUrl={requests.topRated} />
           <MovieRow title="Romantic Getaways" fetchUrl={requests.romance} />
