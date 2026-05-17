@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import api, { IMAGE_BASE_URL } from "../services/api";
 
-export default function SearchPage() {
+function SearchPage() {
   const [searchParams] = useSearchParams();
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -82,3 +82,4 @@ export default function SearchPage() {
     </div>
   );
 }
+export default SearchPage;
